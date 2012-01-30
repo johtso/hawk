@@ -5,10 +5,10 @@ from os import environ
 
 from flaskext.script import Manager
 
-from monitor import app
-from monitor.database import database
-from monitor.checker import Checker
-from monitor.logger import Logger
+from hawk import app
+from hawk.database import database
+from hawk.checker import Checker
+from hawk.logger import Logger
 
 GIST_ID = environ['GIST_ID']
 

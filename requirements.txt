@@ -5,6 +5,7 @@ Werkzeug==0.8.2
 argparse==1.2.1
 certifi==0.0.7
 chardet==1.0.1
+gunicorn==0.13.4
 lxml==2.3.3
 pymongo==2.1.1
 python-dateutil==2.0
